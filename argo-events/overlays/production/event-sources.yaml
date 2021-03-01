@@ -17,7 +17,7 @@ spec:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: http://webhook.185.3.92.203.xip.io
+        url: http://webhook.185.3.93.185.xip.io
       events:
         - "*"
       apiToken:
@@ -26,7 +26,6 @@ spec:
       insecure: true
       active: true
       contentType: json
-
 
 ---
 
@@ -49,4 +48,4 @@ spec:
            name: github-eventsource-svc
            port:
              number: 12000
-    host: webhook.185.3.92.203.xip.io
+    host: webhook.185.3.93.185.xip.io
