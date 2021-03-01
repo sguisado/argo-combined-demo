@@ -17,6 +17,6 @@ spec:
           service:
            name: argo-server
            port:
-             number: 2746
+             number: 80
     host: argo-workflows.34.105.134.51.xip.io
 
