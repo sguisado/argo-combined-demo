@@ -177,12 +177,12 @@ spec:
         name: sealed-secrets-controller
     spec:
       containers:
-      - args: []
+      - args: ["SEALED_SECRETS_UPDATE_STATUS=1"]
         command:
         - controller
         env:
           - name: SEALED_SECRETS_UPDATE_STATUS
-            value: 1
+            value: "1"
         image: quay.io/bitnami/sealed-secrets-controller:v0.15.0
         imagePullPolicy: Always
         livenessProbe:
