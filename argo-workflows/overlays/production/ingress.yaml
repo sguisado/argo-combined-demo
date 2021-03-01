@@ -18,5 +18,5 @@ spec:
            name: argo-server
            port:
              number: 2746
-    host: argo-workflows.nb-45-79-247-191.newark.nodebalancer.linode.com
+    host: argo-workflows.35.242.161.201.xip.io
 

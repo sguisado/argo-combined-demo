@@ -17,7 +17,7 @@ spec:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: http://webhook.nb-45-79-247-191.newark.nodebalancer.linode.com
+        url: http://webhook.35.242.161.201.xip.io
       events:
         - "*"
       apiToken:
@@ -48,4 +48,4 @@ spec:
            name: github-eventsource-svc
            port:
              number: 12000
-    host: webhook.nb-45-79-247-191.newark.nodebalancer.linode.com
+    host: webhook.35.242.161.201.xip.io
